@@ -1,0 +1,26 @@
+html, body, #map-canvas {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body {
+    background-color: silver;
+}
+#navigation {
+    background-color: rgb(106, 131, 226);
+    text-align:  center;
+}
+
+#navigation a {
+    text-decoration: none;
+    color:  white;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 60px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#navigation a:hover {
+    background-color: #A85400;
+}
